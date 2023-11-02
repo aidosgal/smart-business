@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #1f1f1f;
+}
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../src/assets/fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(../src/assets/fonts/Gilroy-Semibold.ttf);
+}
+.font-norm{
+    font-family: Gilroy-Regular;
+}
+.font-kot{
+    font-family: Gilroy-Semibold;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.bg-s{
+    background: rgb(255,255,255);
+    background: linear-gradient(63deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.07) 100%);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('path_to_your_arrow_icon.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 30px; /* Adjust this value according to the width of your arrow icon */
+}
+.custom-hr {
+border: 0;
+height: 1px;
+background-color: rgb(68, 68, 68); /* Change this to your desired color */
+}
